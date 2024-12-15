@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reciklaža Plastike</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Reciklaža Plastike</h1>
+            <nav>
+                <a href="index.html">Početna</a> |
+                <a href="pravilna-reciklaza.html">Pravilna Reciklaža</a> |
+                <a href="doprinos.html">Kako Možete Pomoći</a> |
+                <a href="vrste-plastike.html">Vrste Plastike</a> |
+                <a href="kviz.html">Kviz</a> |
+                <a href="kontakti.html">Kontakt</a>
+            </nav>
+        </header>
+
+    <main>
+        <h2>Kontaktirajte nas</h2>
+        <p>Za sve informacije, pitanja ili prijedloge, ispunite donju formu ili nas kontaktirajte putem navedenih podataka.</p>
+
+        <form action="posalji.php" method="post">
+            <label for="ime">Vaše ime:</label><br>
+            <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime" required><br>
+
+            <label for="email">Vaš email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Unesite svoj email" required><br>
+
+            <label for="poruka">Vaša poruka:</label><br>
+            <textarea id="poruka" name="poruka" placeholder="Unesite svoju poruku ovdje" rows="5" required></textarea><br>
+
+            <button type="submit">Pošalji</button>
+        </form>
+
+        <section>
+            <p><strong>Email:</strong> info@reciklaza.com</p>
+            <p><strong>Telefon:</strong> 061 234 567</p>
+            <p><strong>Adresa:</strong> Treća gimnazija, Sarajevo, Bosna i Hercegovina</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Kontakt: info@reciklaza.com | © 2024 Reciklaža</p>
+    </footer>
+
+</body>
+</html>
+
+
